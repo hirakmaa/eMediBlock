@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "eMediBlock: a secure service-oriented framework for electronic health record management using blockchain"
+abstract: >-
+  Smart contracts, benchmarks, attack suite and offline experiment code for the
+  eMediBlock framework: epoch-fenced consent, accountable emergency access,
+  batched Merkle anchoring, consent-gated erasure-coded recovery,
+  standards-anchored integrity over HL7 FHIR, and congestion-aware scheduling.
+type: software
+license: MIT
+version: 1.0.0
+date-released: "2026-09-28"
+repository-code: "https://github.com/hirakmaa/eMediBlock"
+authors:
+  - family-names: Banerjee
+    given-names: Kaveri
+    affiliation: "Adamas University, Kolkata, India"
+  - family-names: Chowdhury
+    given-names: Soumyadip
+    affiliation: "Indian Institute of Engineering Science and Technology, Shibpur, India"
+  - family-names: Saha
+    given-names: Sajal
+    affiliation: "Adamas University, Kolkata, India"
+  - family-names: Mazumdar
+    given-names: Hirak
+    affiliation: "Adamas University, Kolkata, India"
+  - family-names: Singh
+    given-names: "Sunil Kumar"
+    affiliation: "Manipal Institute of Technology Bengaluru, India"
+keywords:
+  - blockchain
+  - electronic health records
+  - smart contracts
+  - access control
+  - consent withdrawal
+  - HL7 FHIR
+  - Ethereum
+preferred-citation:
+  type: article
+  title: "A Secure Service-Oriented Framework for Electronic Health Record Management Using Blockchain"
+  authors:
+    - family-names: Banerjee
+      given-names: Kaveri
+    - family-names: Chowdhury
+      given-names: Soumyadip
+    - family-names: Saha
+      given-names: Sajal
+    - family-names: Mazumdar
+      given-names: Hirak
+    - family-names: Singh
+      given-names: "Sunil Kumar"
+  year: 2026
+  journal: "TO BE COMPLETED ON ACCEPTANCE"

@@ -1,0 +1,9 @@
+# Offline experiments. Versions pinned loosely; pin exactly before archiving a
+# release so that the DOI'd artifact is reproducible.
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.1
+reedsolo>=1.7          # Reed-Solomon erasure coding (C4)
+fhir.resources>=7.1    # HL7 FHIR R4 models (C5)
+jsonschema>=4.20

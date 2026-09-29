@@ -1,0 +1,32 @@
+# Secrets - never commit
+.env
+*.pem
+*.key
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Hardhat / Truffle build output
+artifacts/
+cache/
+build/
+typechain-types/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large raw data - fetched by data/download_dataset.py, not committed
+data/raw/
+
+# Generated results are COMMITTED on purpose (see results/README.md):
+# they are the evidence for the paper. Do not add results/ here.

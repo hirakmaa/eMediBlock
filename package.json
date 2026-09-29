@@ -1,0 +1,21 @@
+{
+  "name": "emediblock",
+  "version": "1.0.0",
+  "description": "eMediBlock - a secure service-oriented framework for electronic health record management using blockchain. Reproducibility artifact.",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "bench": "hardhat run bench/run_all.js",
+    "bench:sepolia": "hardhat run bench/run_all.js --network sepolia",
+    "size": "hardhat run bench/contract_size.js",
+    "offline": "python3 offline/run_all.py",
+    "figures": "python3 figures/make_figures.py",
+    "all": "npm run test && npm run bench && npm run offline && npm run figures"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "dotenv": "^16.4.5"
+  }
+}

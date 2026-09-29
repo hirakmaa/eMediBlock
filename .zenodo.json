@@ -1,0 +1,18 @@
+{
+  "title": "eMediBlock: a secure service-oriented framework for electronic health record management using blockchain",
+  "description": "Smart contracts, benchmarks, eleven-attack suite and offline experiment code accompanying the eMediBlock manuscript. Includes epoch-fenced consent, accountable break-glass access, batched Merkle anchoring, consent-gated erasure-coded recovery, HL7 FHIR canonical-form integrity, and congestion-aware transaction scheduling.",
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "creators": [
+    { "name": "Banerjee, Kaveri", "affiliation": "Adamas University, Kolkata, India" },
+    { "name": "Chowdhury, Soumyadip", "affiliation": "IIEST Shibpur, India" },
+    { "name": "Saha, Sajal", "affiliation": "Adamas University, Kolkata, India" },
+    { "name": "Mazumdar, Hirak", "affiliation": "Adamas University, Kolkata, India" },
+    { "name": "Singh, Sunil Kumar", "affiliation": "Manipal Institute of Technology Bengaluru, India" }
+  ],
+  "keywords": [
+    "blockchain", "electronic health records", "smart contracts",
+    "access control", "consent withdrawal", "HL7 FHIR", "Ethereum", "solidity"
+  ]
+}
